@@ -7,6 +7,7 @@
 body{
     background-color: #161616;
     color: #eeeeee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1, h2, h4{
@@ -26,7 +27,7 @@ h4{
     color: #00ffff;
 }
 label, p{
-    font-size: .8em;
+    font-size: 1em;
 }
 small{
     font-size: .7em;
@@ -105,6 +106,8 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    position: relative;
+    left: 10em;
 }
 
 .pro, .others{
@@ -135,7 +138,7 @@ progress {
   }
 
 
-.experience, .contact{
+.experience, .ref{
     width: 80%;
     margin: 0 auto;
     background-color: #0f0f0f;
@@ -143,7 +146,7 @@ progress {
 }
 
 .exp-wrapper, .edu-wrapper{
-    padding: 1em 0;
+    padding: 1em .5em;
     display: flex;
     flex-direction: row;
     
@@ -159,17 +162,25 @@ progress {
     justify-content: space-evenly;
 }
 
-.contact{
+.ref{
     display: block;
     text-align: center;
 }
 
 @media screen  and (max-width:1000px){
-    .header, .skills-wrapper, .edu-wrapper, .exp-wrapper, .contact, .about{
-        width: 100%;
+    .header,  .edu-wrapper, .exp-wrapper, .ref, .about{
         flex-direction: column;
     }
     .social-links{
         width: 50%;
+    }
+    .about img{
+        width: 15rem;
+        height: 20rem;
+        margin: auto;
+    }
+    .skills-wrapper{
+        position: relative;
+        left: 0px;
     }
 }
