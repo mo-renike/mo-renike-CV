@@ -107,7 +107,7 @@ header{
     flex-direction: row;
     justify-content: space-evenly;
     position: relative;
-    left: 10em;
+    left: 8em;
 }
 
 .pro, .others{
@@ -170,6 +170,7 @@ progress {
 @media screen  and (max-width:1000px){
     .header,  .edu-wrapper, .exp-wrapper, .ref, .about{
         flex-direction: column;
+        width: 100%;
     }
     .social-links{
         width: 50%;
