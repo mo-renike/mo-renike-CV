@@ -27,11 +27,12 @@ h4{
     color: #00ffff;
 }
 label, p{
-    font-size: 1em;
+    font-size: 16px;
 }
 small{
     font-size: .7em;
     color: #888888;
+    font-weight: normal;
 }
 
 
@@ -107,34 +108,40 @@ header{
     flex-direction: row;
     justify-content: space-evenly;
     position: relative;
-    left: 8em;
+    width: 80%;
+    margin: 0 auto;
 }
 
-.pro, .others{
-    width: 50%;
+.skill-1{
     display: flex;
     flex-direction: column ;
+    padding: 1em;
 }
 
 progress {
     background-color: #111111;
     border: 2px solid #111111;
     border-radius: 30px;
+    width: 17rem;
+    margin: .6em 0;
   }
   progress::-webkit-progress-bar {
     background-color: #111111;
     border: 2px solid #111111;
-    border-radius: 30p
+    border-radius: 30px;
+    width: 17rem;
   }
   progress::-webkit-progress-value {
     background-color: #00ffff;
     border: 1px solid #111111;
     border-radius: 30px;
+    width: 17rem;
   }
   progress::-moz-progress-bar {
     background-color: #111111;
     border: 2px solid #111111;
-    border-radius: 30p
+    border-radius: 30px;
+    width: 17rem;
   }
 
 
@@ -189,4 +196,9 @@ progress {
     .edu-wrapper h4{
         width: 100%;
 }
+}
+@media screen  and (max-width:594px){
+    .skills-wrapper{
+        display: grid;
+    }
 }
