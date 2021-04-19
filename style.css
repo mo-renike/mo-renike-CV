@@ -151,9 +151,12 @@ progress {
     flex-direction: row;
     
 }
-
+.edu-wrapper h4{
+    padding: 1em;
+    width: 30%;
+}
 .exp{
-    padding: 0 2em;
+    padding: 2em;
 }
 
 .education{
@@ -170,7 +173,6 @@ progress {
 @media screen  and (max-width:1000px){
     .header,  .edu-wrapper, .exp-wrapper, .ref, .about{
         flex-direction: column;
-        width: 100%;
     }
     .social-links{
         width: 50%;
@@ -184,4 +186,7 @@ progress {
         position: relative;
         left: 0px;
     }
+    .edu-wrapper h4{
+        width: 100%;
+}
 }
