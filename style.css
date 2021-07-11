@@ -61,12 +61,12 @@ header{
     padding: 1.5rem;
 }
 
-.about img{
+/* .about img{
     /* border-radius: 50%; */
     width: 12rem;
     height: 15rem;
     margin: auto;
-}
+} */
 
 .text{
     padding: 2em;
@@ -184,11 +184,11 @@ progress {
     .social-links{
         width: 50%;
     }
-    .about img{
+    /* .about img{
         width: 15rem;
         height: 20rem;
         margin: auto;
-    }
+    } */
     .skills-wrapper{
         position: relative;
         left: 0px;
