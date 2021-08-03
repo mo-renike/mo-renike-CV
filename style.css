@@ -64,6 +64,7 @@ header {
   margin: 0px auto;
   text-align: center;
   align-items: center;
+  border: 1px solid var(--bg-2);
 }
 
 .about {
