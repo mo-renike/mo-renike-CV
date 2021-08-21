@@ -10,7 +10,7 @@ body {
   background-color: #292929;
   color: #eeeeee;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   letter-spacing: 1px;
 }
 
@@ -152,17 +152,6 @@ a {
 .exp {
   padding: 2em;
 }
-<<<<<<< HEAD
-
-=======
-.exp a {
-  color: #00ffff;
-  border-radius: 10px;
-  border: 2px solid #00ffff;
-  font-weight: bold;
-  margin:10px auto;
-}
->>>>>>> 11cd5693d5bb1fbd22a5405d323f71e95c322148
 .exp a:hover {
   color: #ff0088;
   text-decoration: underline;
@@ -198,9 +187,7 @@ a {
   .social-links {
     width: 100%;
   }
-  body {
-    font-size: 16px;
-  }
+  
   .edu-wrapper h4 {
     width: 100%;
   }
@@ -212,5 +199,10 @@ a {
   }
   .text{
     width: 100%;
+  }
+}
+@media (max-width:789px) {
+  body {
+    font-size: 16px;
   }
 }
