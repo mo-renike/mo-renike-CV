@@ -131,31 +131,7 @@ a {
   padding: 1em;
 }
 
-progress {
-  background-color: #111111;
-  border: 2px solid #111111;
-  border-radius: 30px;
-  width: 17rem;
-  margin: 0.6em 0;
-}
-progress::-webkit-progress-bar {
-  background-color: #111111;
-  border: 2px solid #111111;
-  border-radius: 30px;
-  width: 17rem;
-}
-progress::-webkit-progress-value {
-  background-color: #00ffff;
-  border: 1px solid #111111;
-  border-radius: 30px;
-  width: 17rem;
-}
-progress::-moz-progress-bar {
-  background-color: #111111;
-  border: 2px solid #111111;
-  border-radius: 30px;
-  width: 17rem;
-}
+
 
 .edu,
 .ref {
@@ -176,7 +152,17 @@ progress::-moz-progress-bar {
 .exp {
   padding: 2em;
 }
+<<<<<<< HEAD
 
+=======
+.exp a {
+  color: #00ffff;
+  border-radius: 10px;
+  border: 2px solid #00ffff;
+  font-weight: bold;
+  margin:10px auto;
+}
+>>>>>>> 11cd5693d5bb1fbd22a5405d323f71e95c322148
 .exp a:hover {
   color: #ff0088;
   text-decoration: underline;
