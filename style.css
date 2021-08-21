@@ -169,7 +169,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: fit-content;
 }
 
 .ref {
@@ -177,6 +176,15 @@ a {
   text-align: center;
 }
 
+.fade{
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all .7s ease;
+}
+.fade.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
 @media screen and (max-width: 1000px) {
   .header,
   .edu-wrapper {
