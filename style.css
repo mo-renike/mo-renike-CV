@@ -171,6 +171,32 @@ a {
   justify-content: space-evenly;
 }
 
+progress {
+  background-color: #030303;
+  border: 1px solid #030303;
+  border-radius: 30px;
+  width: 17rem;
+  margin: 0.4em 0;
+}
+progress::-webkit-progress-bar {
+  background-color: #030303;
+  border: 1px solid #030303;
+  border-radius: 30px;
+  width: 17rem;
+}
+progress::-webkit-progress-value {
+  background-color: #00ffff;
+  border: 1px solid #030303;
+  border-radius: 30px;
+  width: 17rem;
+}
+progress::-moz-progress-bar {
+  background-color: #111111;
+  border: 2px solid #111111;
+  border-radius: 30px;
+  width: 17rem;
+}
+
 .ref {
   display: block;
   text-align: center;
